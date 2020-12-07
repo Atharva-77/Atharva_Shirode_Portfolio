@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-body{
+:root
+{
+    --primary-color: #34D399;
+}
+
+body
+{
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,4 +19,22 @@ body{
 {
     max-width: 600px;
     margin:auto;
+}
+
+.link
+{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary
+{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:black;
+}
+.link-secondary
+{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
