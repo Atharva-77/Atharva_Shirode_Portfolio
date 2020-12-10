@@ -9,6 +9,10 @@ body
 {
     font-family: 'Open Sans', sans-serif;
 }
+hr
+{
+    margin: 2rem 0rem;
+}
 
 .container
 {
@@ -37,4 +41,13 @@ body
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+.list-non-bullet
+{
+    list-style:none;
+}
+.list-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
