@@ -51,3 +51,36 @@ hr
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+.navigation
+{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+}
+
+/*This means in navigation class, style nav-brand  */
+.navigation .nav-brand
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* a tag without dot */
+/* .navigation a{
+    color:white;
+    text-decoration: none;
+} */
+
+.navigation .link
+{
+    color:white;
+
+}
+
+.navigation .nav-right
+{
+    text-align: right;
+    /* font-weight: bold; */
+}
+
