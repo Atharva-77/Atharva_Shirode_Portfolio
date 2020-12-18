@@ -3,6 +3,8 @@
 :root
 {
     --primary-color: #34D399;
+    --dark-grey: #6B7280;
+
 }
 
 body
@@ -57,6 +59,7 @@ hr
     background-color: var(--primary-color);
     color:white;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 /*This means in navigation class, style nav-brand  */
@@ -84,3 +87,28 @@ hr
     /* font-weight: bold; */
 }
 
+
+.hero
+{
+    padding: 2rem;
+}
+
+.hero .hero-img
+{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading
+{
+    font-size: 1.7rem;
+    color: var(--dark-grey);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.heading-inverted
+{
+    color: var(--primary-color);
+}
