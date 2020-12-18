@@ -4,6 +4,7 @@
 {
     --primary-color: #34D399;
     --dark-grey: #6B7280;
+    --light-grey: #E5E7EB;
 
 }
 
@@ -111,4 +112,22 @@ hr
 .heading-inverted
 {
     color: var(--primary-color);
+}
+
+
+
+.sect
+{
+  padding: 2rem; 
+   
+}
+.sect h2
+{
+    text-align: center;
+}
+
+/* Here dont use .sect .ow as there is no ow inside sect.It is with section tag. */
+.ow
+{
+    background-color: var(--light-grey);
 }
