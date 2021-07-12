@@ -4,7 +4,7 @@
 {
     --primary-color: #34D399;
     --dark-grey: #6B7280;
-    --light-grey: #f1f3f5;
+    --light-grey: #E5E7EB;
 
 }
 
@@ -36,15 +36,15 @@ hr
 }
 .link-primary
 {
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:black;
 }
 .link-secondary
 {
-    color: #12b479;
+    color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid #12b479;
+    border: 1px solid var(--primary-color);
 }
 .list-non-bullet
 {
@@ -151,25 +151,4 @@ hr
 {
     color:white;
     
-}
-
-.project-button
-{
-    font-weight: 510;
-
-}
-
-.footer-heading
-{
-    font-size: large; 
-    font-weight: 550;
-}
-.footer-socialMedia
-{
-    font-size: large;
-    /* font-weight: 500; */
-}
-
-h2{
-        margin: 0;
 }
