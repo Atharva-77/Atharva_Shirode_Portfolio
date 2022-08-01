@@ -109,7 +109,15 @@ hr
     text-align: center;
     padding-top: 1rem;
 }
-
+.heroProject {
+    padding: 1rem;
+}
+.heroProject .hero-heading {
+    font-size: 1.7rem;
+    color: var(--dark-grey);
+    text-align: center;
+    padding-top: 1rem;
+}
 .heading-inverted
 {
     color: var(--primary-color);
@@ -125,6 +133,10 @@ hr
 .sect h2
 {
     text-align: center;
+}
+.sect .project_h2
+{
+    text-align: left;
 }
 
 /* Here dont use .sect .ow as there is no ow inside sect.It is with section tag. */
@@ -172,4 +184,15 @@ hr
 
 h2{
         margin: 0;
+}
+
+ol{
+    /* margin-block-start:0px; */
+    /* margin-block-end: 0px; */
+    padding-inline-start: 0px;
+}
+
+.E-commerce-span
+{
+    margin: 12px;
 }
